@@ -20,8 +20,8 @@ public class AddNewContact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_new_contact);
-        mNameEditText = (EditText) findViewById(R.id.contactLastname);
-        mLastnameEditText = (EditText) findViewById(R.id.contactName);
+        mNameEditText = (EditText) findViewById(R.id.contactName);
+        mLastnameEditText = (EditText) findViewById(R.id.contactLastname);
         mphoneEditText = (EditText) findViewById(R.id.contactPhone);
         mAddBtn = (Button)findViewById(R.id.addNewContactButton);
         mAddBtn.setOnClickListener(new View.OnClickListener() {

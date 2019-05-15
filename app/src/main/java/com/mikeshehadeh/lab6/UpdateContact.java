@@ -19,8 +19,8 @@ public class UpdateContact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_contact);
-        mNameEditText = (EditText) findViewById(R.id.contactLastname);
-        mLastnameEditText = (EditText) findViewById(R.id.contactName);
+        mNameEditText = (EditText) findViewById(R.id.contactName);
+        mLastnameEditText = (EditText) findViewById(R.id.contactLastname);
         mphoneEditText = (EditText) findViewById(R.id.contactPhone);
         mUpdateBtn = (Button)findViewById(R.id.updateButton);
         dbHelper = new MyDBHelper(this);
